@@ -1,0 +1,14 @@
+React Testing Library => provides virtual DOM for tests
+
+Jest => test runner
+
+Un test vide passe
+
+**** TDD ****
+1 - écrire le test avant le code
+2 - écrire un texte qui fail
+3 - écrire un code qui est bon
+*************
+
+1 - npx create-react-app (installer version antérieure de babel maybe)
+2 - npm test

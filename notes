@@ -3,6 +3,23 @@ https://www.w3.org/TR/wai-aria/#role_definitions
 
 https://github.com/testing-library/jest-dom 
 
+
+** Config **
+npm i eslint-plugin-testing-library eslint-plugin-jest-dom
+supprimer esling-config de package.json
+créer fichier .eslintrc.json
+    "eslint.options": {
+        "configFile": ".eslintrc.json"
+    },
+    "eslint.validate": ["javascript", "javascriptreact"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+      "eslint.alwaysShowStatus": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+.gitignore => .eslintcache
+
 React Testing Library => provides virtual DOM for tests
 
 Jest => test runner

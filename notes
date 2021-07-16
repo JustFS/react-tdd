@@ -2,7 +2,11 @@ Trouver la définition des roles
 https://www.w3.org/TR/wai-aria/#role_definitions
 
 https://github.com/testing-library/jest-dom 
+https://testing-library.com/docs/react-testing-library/cheatsheet/
 
+Différents events => user-events (permet tout type d'événement)
+https://github.com/testing-library/user-event
+npm install @testing-library/user-event @testing-library/dom
 
 ** Config **
 npm i eslint-plugin-testing-library eslint-plugin-jest-dom
@@ -36,6 +40,11 @@ il est mieux d'avoir 1 "expect" par test
 1 - npx create-react-app (installer version antérieure de babel maybe)
 2 - npm test
 
+
+*** SCREENS METHODS ***
+get : expect element to be in DOM
+query : expect element not to be in DOM
+find : expect element to appear async
 
 test("renders learn react link", () => {
   // Render crée un virtual DOM

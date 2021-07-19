@@ -40,6 +40,12 @@ il est mieux d'avoir 1 "expect" par test
 1 - npx create-react-app (installer version antérieure de babel maybe)
 2 - npm test
 
+**** MOCK SERVICE WORKER ****
+npm i msw
+https://mswjs.io/docs/getting-started/mocks/rest-api
+Dans setupTests.js => coler le partir "using create-react-app"
+
+
 
 *** SCREENS METHODS ***
 get : expect element to be in DOM
